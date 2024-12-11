@@ -1,0 +1,50 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1522335146626-716b1a4f48a5');
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    color: Blue;
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: black;(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;(0, 0, 0, 0.5);
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid green;
+    padding: 10px;
+    text-align: left;
+  }
